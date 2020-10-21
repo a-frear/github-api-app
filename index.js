@@ -24,9 +24,8 @@ function getNews(searchUser) {
   };
   
   const url = `https://api.github.com/users/${searchUser}/repos`
-
   console.log(url);
-
+  
   const options = {
     headers: new Headers({
       "accept": "application/vnd.github.v3+json"})
